@@ -1,4 +1,186 @@
+/*=====================Header==================*/
+/* .header 
+
+.sektion
+
+.navigaation
+
+.logo
+
+.logo-blue
+
+.nav-item
+
+.nav-item-link
+
+.cont
+
+.cont-link
+*/
+/*:root {
+
+}
 body {
-  background-color: blue; 
-  color: brown;
+  background-color: #ffffff;
+  color:  #212121 ;
+  list-style-type: none;
+}
+.header {
+  list-style-type: none;
+}
+*/
+.logo {
+  color: #000000;
+}
+.menu-item {
+font-family: "Roboto","Arial";
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.menu-item-link:hover,
+.menu-item-link:focus {
+  color: #2196F3;
+}
+.menu-item-link.current,.logo-blue {
+  color: #2196F3;
+}
+
+
+
+
+
+
+
+
+
+
+.cont-link {
+font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: #757575;;
+}
+.cont-link:hover,
+.cont-link:focus {
+  color: #2196F3;
+}
+
+
+
+
+/*=====================HERO=======================*/
+
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+  text-align: center;
+}
+.hero-button {
+  font-family: Roboto; 
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: #FFFFFF;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.hero-button:hover,
+.hero-button:focus {
+
+}
+.hero-button-go{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+/*=====================ABOUT======================*/
+
+.about{
+
+}
+.about-list{
+
+}
+.about-list-name{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.about-list-text{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+
+/*===================== What we do ==============*/
+
+
+
+
+
+
+
+
+
+
+
+/*=====================Team=====================*/
+
+
+
+/*=====================Footer=====================*/
+.footer {
+  background-color: #2f303a;
+  color: #ffffff;
+text-align: left ;
+}
+.footer-list {
+  color: #ffffff ;
+}
+.footer-list-map {
+  color: #ffffff ;
+}
+.logo-footer{
+  color: #ffffff;
 }
