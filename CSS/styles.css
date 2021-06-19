@@ -30,14 +30,15 @@ body {
 }
 */
 ul,
-li {
+li,
+a {
   list-style: none;
 }
 .logo {
   color: #000000;
 }
 .menu-item {
-  font-family: "Roboto", "Arial";
+  font-family: 'Roboto', 'Arial';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
