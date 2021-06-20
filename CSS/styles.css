@@ -34,6 +34,9 @@ li,
 a {
   list-style: none;
 }
+body {
+  font-family: 'Roboto';
+}
 .logo {
   color: #000000;
 }
@@ -145,13 +148,8 @@ a {
   color: #ffffff;
   text-align: left;
 }
+.logo-footer,
+.footer-list-map,
 .footer-list ul,
 li {
   color: #ffffff;
-}
-.footer-list-map {
-  color: #ffffff;
-}
-.logo-footer {
-  color: #ffffff;
-}
