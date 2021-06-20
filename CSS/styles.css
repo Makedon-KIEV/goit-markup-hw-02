@@ -1,34 +1,4 @@
 /*=====================Header==================*/
-/* .header 
-
-.sektion
-
-.navigaation
-
-.logo
-
-.logo-blue
-
-.nav-item
-
-.nav-item-link
-
-.cont
-
-.cont-link
-*/
-/*:root {
-
-}
-body {
-  background-color: #ffffff;
-  color:  #212121 ;
-  list-style-type: none;
-}
-.header {
-  list-style-type: none;
-}
-*/
 ul,
 li,
 a {
@@ -37,7 +7,7 @@ a {
   text-decoration: none;
 }
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'sans-serif';
 }
 .header {
   width: 1600px;
@@ -50,12 +20,15 @@ body {
   color: #000000;
 }
 .menu-item {
-  font-family: 'Roboto', 'Arial';
+  font-family: 'Roboto', 'sans-serif';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: #212121;
+}
+.menu-item a {
+  color: #000000;
 }
 
 .menu-item-link:hover,
@@ -68,7 +41,7 @@ body {
 }
 
 .cont-link {
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'sans-serif';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -98,7 +71,7 @@ body {
   letter-spacing: 0.06em;
 }
 .hero-button {
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'sans-serif';
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -116,11 +89,8 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.hero-button:hover,
-.hero-button:focus {
-}
 .hero-button-go {
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'sans-serif';
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -133,12 +103,8 @@ body {
 
 /*=====================ABOUT======================*/
 
-.about {
-}
-.about-list {
-}
-.about-list-name {
-  font-family: 'Roboto';
+.about h3 {
+  font-family: 'Roboto', 'sans-serif';
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -147,8 +113,8 @@ body {
   text-transform: uppercase;
   color: #212121;
 }
-.about-list-text {
-  font-family: 'Roboto';
+.about p {
+  font-family: 'Roboto', 'sans-serif';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -158,11 +124,8 @@ body {
 }
 
 /*===================== What we do ==============*/
-.what {
-}
-
-.what-chapter {
-  font-family: 'Roboto';
+.whatwedo h2 {
+  font-family: 'Roboto', 'sans-serif';
   font-weight: bold;
   font-size: 36px;
   line-height: 1.1;
@@ -170,28 +133,36 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.what-we {
-}
-.what-img-1 .what {
-  left: 215px;
-  top: 1061px;
-}
-.what-img-2 {
-  left: 615px;
-  top: 1061px;
-}
-.what-img-3 {
-  left: 1015px;
-  top: 1061px;
-}
+
 /*=====================Team=====================*/
-.team {
-}
+
 .team-list {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.team-list-itam {
+
+.team-list-itam h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.team-foto {
+.team-list-itam p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /*=====================Footer=====================*/
@@ -203,21 +174,62 @@ body {
   color: #ffffff;
 }
 .addres {
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'sans-serif';
   font-weight: normal;
   font-size: 24px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  color: #ffffff;
 }
-.cont-link-map {
-  font-family: 'Roboto';
+.cont-link.map {
+  font-family: 'Roboto', 'sans-serif';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.6);
 }
-.cont-link-map:hover,
-.cont-link-map:focus {
+.cont-link.map:hover,
+.cont-link.map:focus {
   color: #2196f3;
+}
+/*========END FOOTER ==========*/
+/*========PORTFOLIO===========*/
+.gallery-portfolio {
+  color: #ffffff;
+}
+/*========PORTFOLIO HERO======*/
+.nav-portfolio-list li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/*===========GALLERY=====*/
+.gallery h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.gallery p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
