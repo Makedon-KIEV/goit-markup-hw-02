@@ -33,9 +33,18 @@ ul,
 li,
 a {
   list-style: none;
+  list-style-type: none;
+  text-decoration: none;
 }
 body {
   font-family: 'Roboto';
+}
+.header {
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background-color: #ffffff;
 }
 .logo {
   color: #000000;
@@ -59,7 +68,7 @@ body {
 }
 
 .cont-link {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -67,7 +76,8 @@ body {
   color: #757575;
 }
 .cont-link:hover,
-.cont-link:focus {
+.cont-link:focus,
+.cont-link-map {
   color: #2196f3;
 }
 
@@ -78,8 +88,17 @@ body {
   color: #ffffff;
   text-align: center;
 }
-.hero-button {
+.hero-face {
+  text-transform: uppercase;
   font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 4;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero-button {
+  font-family: 'Roboto';
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -101,7 +120,7 @@ body {
 .hero-button:focus {
 }
 .hero-button-go {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -119,7 +138,7 @@ body {
 .about-list {
 }
 .about-list-name {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -129,7 +148,7 @@ body {
   color: #212121;
 }
 .about-list-text {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -139,17 +158,66 @@ body {
 }
 
 /*===================== What we do ==============*/
+.what {
+}
 
+.what-chapter {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.what-we {
+}
+.what-img-1 .what {
+  left: 215px;
+  top: 1061px;
+}
+.what-img-2 {
+  left: 615px;
+  top: 1061px;
+}
+.what-img-3 {
+  left: 1015px;
+  top: 1061px;
+}
 /*=====================Team=====================*/
+.team {
+}
+.team-list {
+}
+.team-list-itam {
+}
+.team-foto {
+}
 
 /*=====================Footer=====================*/
 .footer {
   background-color: #2f303a;
-  color: #ffffff;
   text-align: left;
 }
-.logo-footer,
-.footer-list-map,
-.footer-list ul,
-li {
+.logo-footer {
   color: #ffffff;
+}
+.addres {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.cont-link-map {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.cont-link-map:hover,
+.cont-link-map:focus {
+  color: #2196f3;
+}
