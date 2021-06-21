@@ -64,8 +64,6 @@ body {
   background-color: #2f303a;
   color: var(--back-color);
   text-align: center;
-}
-.hero-face {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
@@ -96,20 +94,20 @@ body {
 
 /*=====================ABOUT======================*/
 
-.about h3 {
+.about-paragraph {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-color);
 }
-.about p {
+.about-description {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
 /*===================== What we do ==============*/
-.whatwedo h2 {
+.whatwedo {
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
@@ -127,14 +125,14 @@ body {
   color: var(--text-color);
 }
 
-.team-list-itam h4 {
+.team-list-name {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.team-list-itam p {
+.team-list-position {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -188,13 +186,16 @@ body {
 }
 
 /*===========GALLERY=====*/
-.gallery h2 {
+.portfolio-hidden {
+  color: #ffffff;
+}
+.project-name {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--text-color);
+  color: #212121;
 }
-.gallery p {
+.project-type {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 0.03em;
